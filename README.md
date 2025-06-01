@@ -1,4 +1,4 @@
-# プロジェクト名
+# 食事メニューカロリー判定
 
 簡単な説明文（1～2行）
 
@@ -16,7 +16,7 @@
 
 ## 🛠️ 使用技術
 
-- Python 3.x
+- Python 3
 - PyTorch
 - Streamlit
 - SQLite
