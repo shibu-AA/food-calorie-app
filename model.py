@@ -7,7 +7,7 @@ from PIL import Image
 
 import sqlite3
 
-def get_calorie_from_db(food_name: str, db_path="/content/Food101_Calorie.db") -> int:
+def get_calorie_from_db(food_name: str, db_path="Food101_Calorie.db") -> int:
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute("SELECT Calorie FROM Calorietable WHERE name=?", (food_name,))
