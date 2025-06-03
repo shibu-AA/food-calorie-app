@@ -41,7 +41,7 @@
 ```
 
 #### ライブラリのインポート
-```bash
+```python
 import streamlit as st
 from pyngrok import ngrok
 ```
@@ -58,7 +58,7 @@ from pyngrok import ngrok
 ```
 
 #### 公開URLを表示
-```bash
+```python
 ngrok.kill()
 url = ngrok.connect(addr="8501")
 print(url)
